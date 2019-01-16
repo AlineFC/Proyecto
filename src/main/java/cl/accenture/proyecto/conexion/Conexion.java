@@ -26,7 +26,7 @@ public class Conexion {
         }
 
         try {
-            con = DriverManager.getConnection("jdbc:mysql//localhost:3306/Proyecto","root","petsociety,19");
+            con = DriverManager.getConnection("jdbc:mysql//localhost:3306/Proyecto","root","1345");
         }
         catch(Exception e){
             System.out.println("No se pudo crear una conexion con la Base de Datos, revise el error.");
